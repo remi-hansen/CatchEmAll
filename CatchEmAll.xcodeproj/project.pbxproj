@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		9E1045F82918B70E00AF2C6F /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1045F72918B70E00AF2C6F /* CatchEmAllApp.swift */; };
-		9E1045FA2918B70E00AF2C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1045F92918B70E00AF2C6F /* ContentView.swift */; };
+		9E1045FA2918B70E00AF2C6F /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1045F92918B70E00AF2C6F /* CreaturesListView.swift */; };
 		9E1045FC2918B71000AF2C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1045FB2918B71000AF2C6F /* Assets.xcassets */; };
 		9E1045FF2918B71000AF2C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1045FE2918B71000AF2C6F /* Preview Assets.xcassets */; };
+		9E1046062918BDDA00AF2C6F /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1046052918BDDA00AF2C6F /* CreaturesViewModel.swift */; };
+		9E10460A2918C66B00AF2C6F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1046092918C66B00AF2C6F /* DetailView.swift */; };
+		9E10460C2918C8A000AF2C6F /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10460B2918C8A000AF2C6F /* Creature.swift */; };
+		9E10460E2918CAF200AF2C6F /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E10460D2918CAF200AF2C6F /* CreatureDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E1045F42918B70E00AF2C6F /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1045F72918B70E00AF2C6F /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
-		9E1045F92918B70E00AF2C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E1045F92918B70E00AF2C6F /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		9E1045FB2918B71000AF2C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1045FE2918B71000AF2C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E1046052918BDDA00AF2C6F /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		9E1046092918C66B00AF2C6F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9E10460B2918C8A000AF2C6F /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		9E10460D2918CAF200AF2C6F /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				9E1045F72918B70E00AF2C6F /* CatchEmAllApp.swift */,
-				9E1045F92918B70E00AF2C6F /* ContentView.swift */,
+				9E10460B2918C8A000AF2C6F /* Creature.swift */,
+				9E1046052918BDDA00AF2C6F /* CreaturesViewModel.swift */,
+				9E10460D2918CAF200AF2C6F /* CreatureDetailViewModel.swift */,
+				9E1045F92918B70E00AF2C6F /* CreaturesListView.swift */,
+				9E1046092918C66B00AF2C6F /* DetailView.swift */,
 				9E1045FB2918B71000AF2C6F /* Assets.xcassets */,
 				9E1045FD2918B71000AF2C6F /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1045FA2918B70E00AF2C6F /* ContentView.swift in Sources */,
+				9E1046062918BDDA00AF2C6F /* CreaturesViewModel.swift in Sources */,
+				9E10460A2918C66B00AF2C6F /* DetailView.swift in Sources */,
+				9E1045FA2918B70E00AF2C6F /* CreaturesListView.swift in Sources */,
+				9E10460C2918C8A000AF2C6F /* Creature.swift in Sources */,
+				9E10460E2918CAF200AF2C6F /* CreatureDetailViewModel.swift in Sources */,
 				9E1045F82918B70E00AF2C6F /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

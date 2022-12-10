@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CatchEmAllApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreaturesListView()
+                .environmentObject(CreaturesViewModel())
+                .environmentObject(CreatureDetailViewModel())
         }
     }
 }
